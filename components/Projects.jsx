@@ -12,6 +12,7 @@ import Style from '../public/assets/projects/style.png'
 import Twitch from '../public/assets/projects/browse.png'
 import Mobilestyle from '../public/assets/projects/mobilestyle.png'
 import Figmacria from '../public/assets/projects/figmacria.png'
+import Food from '../public/assets/projects/food.png'
 import Mobilethd from '../public/assets/projects/mobilethd.png'
 import Cria from '../public/assets/projects/cria.png'
 import Nubank from '../public/assets/projects/nubank.png'
@@ -87,6 +88,13 @@ const Projects = () => {
             backgroundImg={Figmacria}
             projectUrl='https://www.figma.com/proto/wC9OW2H04LSAqU9WGG1PSy/Dashboard?node-id=401-4&scaling=scale-down&page-id=0%3A1'
             tech='Figma'
+
+          />
+          <ProjectItem
+            title='App Food'
+            backgroundImg={Food}
+            projectUrl='https://food-seven-omega.vercel.app/'
+            tech='React JS / Tailwind'
 
           />
           <ProjectItem
