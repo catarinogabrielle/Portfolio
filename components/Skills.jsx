@@ -13,6 +13,7 @@ import Postgre from '../public/assets/skills/postgresql.png';
 import Figma from '../public/assets/skills/figma.png';
 import Mongo from '../public/assets/skills/mongo.png';
 import Sass from '../public/assets/skills/sass.png';
+import Flutter from '../public/assets/skills/flutter.png';
 import StyledComp from '../public/assets/skills/styledcomponents.png';
 import Expo from '../public/assets/skills/expo.png';
 import Typescript from '../public/assets/skills/typescript.png';
@@ -93,6 +94,16 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Flutter} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Flutter</h3>
               </div>
             </div>
           </div>
