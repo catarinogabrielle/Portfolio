@@ -9,7 +9,9 @@ import Allegro from '../public/assets/projects/allegro.png'
 import Wilson from '../public/assets/projects/wilson.png'
 import Ytrade from '../public/assets/projects/ytrade.png'
 import Style from '../public/assets/projects/style.png'
+import Mobilestyle from '../public/assets/projects/mobilestyle.png'
 import Figmacria from '../public/assets/projects/figmacria.png'
+import Mobilethd from '../public/assets/projects/mobilethd.png'
 import Cria from '../public/assets/projects/cria.png'
 import Youtube from '../public/assets/projects/youtube.png'
 import ProjectItem from './ProjectItem';
@@ -30,6 +32,13 @@ const Projects = () => {
             tech='HTML CSS JS'
           />
           <ProjectItem
+            title='App Style'
+            backgroundImg={Mobilestyle}
+            projectUrl='https://style.ymonetize.com/'
+            tech='React Native, Expo & Typescript'
+
+          />
+          <ProjectItem
             title='ThdAcademy'
             backgroundImg={Thdacademy}
             projectUrl='https://thdacademy.com/home'
@@ -41,6 +50,13 @@ const Projects = () => {
             backgroundImg={Wilson}
             projectUrl='https://www.figma.com/file/3NRdIoylPHnaGxVVDhLIyc/Escola-a-Bordo?node-id=0-1&t=kd1H94kBpbdcABNu-0'
             tech='Figma'
+
+          />
+          <ProjectItem
+            title='App ThdAcademy'
+            backgroundImg={Mobilethd}
+            projectUrl='https://github.com/catarinogabrielle/The.doctors-react-native-mobile'
+            tech='React Native, Expo & Typescript'
 
           />
           <ProjectItem
@@ -79,7 +95,7 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='App Style'
+            title='Style Website'
             backgroundImg={Style}
             projectUrl='https://style.ymonetize.com/'
             tech='Next JS & Typescript'
