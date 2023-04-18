@@ -14,6 +14,7 @@ import Mobilestyle from '../public/assets/projects/mobilestyle.png'
 import Figmacria from '../public/assets/projects/figmacria.png'
 import Mobilethd from '../public/assets/projects/mobilethd.png'
 import Cria from '../public/assets/projects/cria.png'
+import Nubank from '../public/assets/projects/nubank.png'
 import Youtube from '../public/assets/projects/youtube.png'
 import ProjectItem from './ProjectItem';
 
@@ -107,6 +108,13 @@ const Projects = () => {
             backgroundImg={Style}
             projectUrl='https://style.ymonetize.com/'
             tech='Next JS / Typescript'
+
+          />
+          <ProjectItem
+            title='App Nubank'
+            backgroundImg={Nubank}
+            projectUrl='https://github.com/catarinogabrielle/Nubank'
+            tech='Flutter'
 
           />
           <ProjectItem
