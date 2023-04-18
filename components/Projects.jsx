@@ -9,6 +9,7 @@ import Allegro from '../public/assets/projects/allegro.png'
 import Wilson from '../public/assets/projects/wilson.png'
 import Ytrade from '../public/assets/projects/ytrade.png'
 import Style from '../public/assets/projects/style.png'
+import Twitch from '../public/assets/projects/browse.png'
 import Mobilestyle from '../public/assets/projects/mobilestyle.png'
 import Figmacria from '../public/assets/projects/figmacria.png'
 import Mobilethd from '../public/assets/projects/mobilethd.png'
@@ -29,20 +30,27 @@ const Projects = () => {
             title='Thedoctors'
             backgroundImg={Thedoctors}
             projectUrl='https://thedoctorsagencia.com.br/'
-            tech='HTML CSS JS'
+            tech='HTML / CSS / JS'
+          />
+          <ProjectItem
+            title='App Twitch'
+            backgroundImg={Twitch}
+            projectUrl='https://github.com/catarinogabrielle/Twitch'
+            tech='Next JS / Tailwind / Next Auth'
+
           />
           <ProjectItem
             title='App Style'
             backgroundImg={Mobilestyle}
             projectUrl='https://style.ymonetize.com/'
-            tech='React Native, Expo & Typescript'
+            tech='React Native / Expo / Typescript'
 
           />
           <ProjectItem
             title='ThdAcademy'
             backgroundImg={Thdacademy}
             projectUrl='https://thdacademy.com/home'
-            tech='Next Js, Typescript & Node Js'
+            tech='Next Js / Typescript / Node Js'
 
           />
           <ProjectItem
@@ -56,21 +64,21 @@ const Projects = () => {
             title='App ThdAcademy'
             backgroundImg={Mobilethd}
             projectUrl='https://github.com/catarinogabrielle/The.doctors-react-native-mobile'
-            tech='React Native, Expo & Typescript'
+            tech='React Native / Expo / Typescript'
 
           />
           <ProjectItem
             title='Allegro Website'
             backgroundImg={Allegro}
             projectUrl='https://catarinogabrielle.github.io/website_allegro/'
-            tech='HTML CSS JS'
+            tech='HTML / CSS / JS'
 
           />
           <ProjectItem
             title='Minha Nutri'
             backgroundImg={Minhanutri}
             projectUrl='https://minha-nutri.vercel.app/'
-            tech='HTML CSS JS'
+            tech='HTML / CSS / JS'
 
           />
           <ProjectItem
@@ -84,21 +92,21 @@ const Projects = () => {
             title='App Ytrade'
             backgroundImg={Ytrade}
             projectUrl='https://dev_ytrader.ymonetize.com/home'
-            tech='Next JS & Typescript'
+            tech='Next JS / Typescript'
 
           />
           <ProjectItem
             title='App Cria'
             backgroundImg={Cria}
             projectUrl='https://appcria.com/index.php'
-            tech='React Js & Node Js'
+            tech='React Js / Node Js'
 
           />
           <ProjectItem
             title='Style Website'
             backgroundImg={Style}
             projectUrl='https://style.ymonetize.com/'
-            tech='Next JS & Typescript'
+            tech='Next JS / Typescript'
 
           />
           <ProjectItem
@@ -112,7 +120,7 @@ const Projects = () => {
             title='Youtube Chanel'
             backgroundImg={Youtube}
             projectUrl='https://www.youtube.com/@effect8739/videos'
-            tech='Adobe Premier & Affter Effects'
+            tech='Adobe Premier / Affter Effects'
 
           />
         </div>
