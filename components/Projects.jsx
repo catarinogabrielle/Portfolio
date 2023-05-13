@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import Thedoctors from '../public/assets/projects/thedoctors.png';
 import Thdacademy from '../public/assets/projects/thdacademy.png'
@@ -9,6 +7,8 @@ import Allegro from '../public/assets/projects/allegro.png'
 import Wilson from '../public/assets/projects/wilson.png'
 import Ytrade from '../public/assets/projects/ytrade.png'
 import Style from '../public/assets/projects/style.png'
+import Gazin from '../public/assets/projects/gazin.png'
+import Ymonetize from '../public/assets/projects/ymonetize.png'
 import Twitch from '../public/assets/projects/browse.png'
 import Mobilestyle from '../public/assets/projects/mobilestyle.png'
 import Figmacria from '../public/assets/projects/figmacria.png'
@@ -88,6 +88,20 @@ const Projects = () => {
             backgroundImg={Figmacria}
             projectUrl='https://www.figma.com/proto/wC9OW2H04LSAqU9WGG1PSy/Dashboard?node-id=401-4&scaling=scale-down&page-id=0%3A1'
             tech='Figma'
+
+          />
+          <ProjectItem
+            title='App Gazin'
+            backgroundImg={Gazin}
+            projectUrl='https://github.com/catarinogabrielle/gazin_app'
+            tech='React Native / Expo / Typescript'
+
+          />
+          <ProjectItem
+            title='Ymonetize'
+            backgroundImg={Ymonetize}
+            projectUrl='https://style.ymonetize.com/'
+            tech='HTML / CSS / JS'
 
           />
           <ProjectItem
